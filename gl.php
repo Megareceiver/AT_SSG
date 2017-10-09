@@ -65,8 +65,8 @@ class OpeningGl
                     echo '</td>';
                     echo '</tr>';
 
-                    $debit_total=array_sum($item['debit']);
-                    $credit_total=array_sum($item['credit']);
+                    $debit_total+=$item['debit'];
+                    $credit_total+=$item['credit'];
                 }
         
             }
